@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		8E0CC7B227A6C75B0043AD33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0CC7B127A6C75B0043AD33 /* AppDelegate.swift */; };
 		8E0CC7B427A6C75B0043AD33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0CC7B327A6C75B0043AD33 /* SceneDelegate.swift */; };
-		8E0CC7B627A6C75B0043AD33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0CC7B527A6C75B0043AD33 /* ViewController.swift */; };
-		8E0CC7B927A6C75B0043AD33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E0CC7B727A6C75B0043AD33 /* Main.storyboard */; };
+		8E0CC7B627A6C75B0043AD33 /* MoviesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0CC7B527A6C75B0043AD33 /* MoviesListViewController.swift */; };
 		8E0CC7BB27A6C7630043AD33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E0CC7BA27A6C7630043AD33 /* Assets.xcassets */; };
 		8E0CC7BE27A6C7630043AD33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E0CC7BC27A6C7630043AD33 /* LaunchScreen.storyboard */; };
+		8E0E8A9C27A705E5003DBBAB /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0E8A9B27A705E5003DBBAB /* Movie.swift */; };
+		8E0E8AA127A70A98003DBBAB /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0E8AA027A70A98003DBBAB /* MovieDetailsViewController.swift */; };
+		8E0E8AA427A72962003DBBAB /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0E8AA327A72962003DBBAB /* ItemTableViewCell.swift */; };
+		8E0E8AA627A73A7A003DBBAB /* MoviesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0E8AA527A73A7A003DBBAB /* MoviesListViewModel.swift */; };
+		8E0E8AA827A73B78003DBBAB /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0E8AA727A73B78003DBBAB /* APIClient.swift */; };
+		8E3347FD27A99FC900E1062F /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3347FC27A99FC900E1062F /* APIRequest.swift */; };
+		8E33480127A9B7E300E1062F /* MovieDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E33480027A9B7E300E1062F /* MovieDetailsViewModel.swift */; };
+		8E33480327A9C89600E1062F /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E33480227A9C89600E1062F /* Bindable.swift */; };
+		8E33480527A9CAF200E1062F /* DoubleLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E33480427A9CAF200E1062F /* DoubleLabelView.swift */; };
+		CBE3DB1A7D57991D94CA1BF0 /* Pods_HusqvarnaTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F8230613BA77D60E76BBBB3 /* Pods_HusqvarnaTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F8230613BA77D60E76BBBB3 /* Pods_HusqvarnaTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HusqvarnaTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B251F29673AB3E8BA32C002 /* Pods-HusqvarnaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HusqvarnaTest.release.xcconfig"; path = "Target Support Files/Pods-HusqvarnaTest/Pods-HusqvarnaTest.release.xcconfig"; sourceTree = "<group>"; };
+		65B2057729EB51C1F07FFA39 /* Pods-HusqvarnaTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HusqvarnaTest.debug.xcconfig"; path = "Target Support Files/Pods-HusqvarnaTest/Pods-HusqvarnaTest.debug.xcconfig"; sourceTree = "<group>"; };
 		8E0CC7AE27A6C75A0043AD33 /* HusqvarnaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HusqvarnaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E0CC7B127A6C75B0043AD33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E0CC7B327A6C75B0043AD33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8E0CC7B527A6C75B0043AD33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8E0CC7B827A6C75B0043AD33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E0CC7B527A6C75B0043AD33 /* MoviesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListViewController.swift; sourceTree = "<group>"; };
 		8E0CC7BA27A6C7630043AD33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E0CC7BD27A6C7630043AD33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E0CC7BF27A6C7630043AD33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E0E8A9B27A705E5003DBBAB /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		8E0E8AA027A70A98003DBBAB /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		8E0E8AA327A72962003DBBAB /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		8E0E8AA527A73A7A003DBBAB /* MoviesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListViewModel.swift; sourceTree = "<group>"; };
+		8E0E8AA727A73B78003DBBAB /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		8E3347FC27A99FC900E1062F /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		8E33480027A9B7E300E1062F /* MovieDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewModel.swift; sourceTree = "<group>"; };
+		8E33480227A9C89600E1062F /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		8E33480427A9CAF200E1062F /* DoubleLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleLabelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBE3DB1A7D57991D94CA1BF0 /* Pods_HusqvarnaTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24B84803E893691E515421AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F8230613BA77D60E76BBBB3 /* Pods_HusqvarnaTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C7C486ACADD805D900A7F5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65B2057729EB51C1F07FFA39 /* Pods-HusqvarnaTest.debug.xcconfig */,
+				5B251F29673AB3E8BA32C002 /* Pods-HusqvarnaTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8E0CC7A527A6C75A0043AD33 = {
 			isa = PBXGroup;
 			children = (
 				8E0CC7B027A6C75A0043AD33 /* HusqvarnaTest */,
 				8E0CC7AF27A6C75A0043AD33 /* Products */,
+				6C7C486ACADD805D900A7F5F /* Pods */,
+				24B84803E893691E515421AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +96,71 @@
 		8E0CC7B027A6C75A0043AD33 /* HusqvarnaTest */ = {
 			isa = PBXGroup;
 			children = (
-				8E0CC7B127A6C75B0043AD33 /* AppDelegate.swift */,
-				8E0CC7B327A6C75B0043AD33 /* SceneDelegate.swift */,
-				8E0CC7B527A6C75B0043AD33 /* ViewController.swift */,
-				8E0CC7B727A6C75B0043AD33 /* Main.storyboard */,
+				8E0E8A9F27A709F3003DBBAB /* Common */,
+				8E0E8A9727A6EE87003DBBAB /* ViewController */,
+				8E0E8AA227A72935003DBBAB /* View */,
+				8E0E8A9627A6EE80003DBBAB /* ViewModel */,
+				8E0E8A9527A6EE7C003DBBAB /* Model */,
+				8E0E8A9427A6E3F6003DBBAB /* Service */,
 				8E0CC7BA27A6C7630043AD33 /* Assets.xcassets */,
 				8E0CC7BC27A6C7630043AD33 /* LaunchScreen.storyboard */,
 				8E0CC7BF27A6C7630043AD33 /* Info.plist */,
 			);
 			path = HusqvarnaTest;
+			sourceTree = "<group>";
+		};
+		8E0E8A9427A6E3F6003DBBAB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8E0E8AA727A73B78003DBBAB /* APIClient.swift */,
+				8E3347FC27A99FC900E1062F /* APIRequest.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8E0E8A9527A6EE7C003DBBAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8E0E8A9B27A705E5003DBBAB /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8E0E8A9627A6EE80003DBBAB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8E0E8AA527A73A7A003DBBAB /* MoviesListViewModel.swift */,
+				8E33480027A9B7E300E1062F /* MovieDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8E0E8A9727A6EE87003DBBAB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8E0CC7B527A6C75B0043AD33 /* MoviesListViewController.swift */,
+				8E0E8AA027A70A98003DBBAB /* MovieDetailsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8E0E8A9F27A709F3003DBBAB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8E0CC7B127A6C75B0043AD33 /* AppDelegate.swift */,
+				8E0CC7B327A6C75B0043AD33 /* SceneDelegate.swift */,
+				8E33480227A9C89600E1062F /* Bindable.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		8E0E8AA227A72935003DBBAB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8E0E8AA327A72962003DBBAB /* ItemTableViewCell.swift */,
+				8E33480427A9CAF200E1062F /* DoubleLabelView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E0CC7C227A6C7630043AD33 /* Build configuration list for PBXNativeTarget "HusqvarnaTest" */;
 			buildPhases = (
+				354B8E8666DE1BF9B1A8C22C /* [CP] Check Pods Manifest.lock */,
 				8E0CC7AA27A6C75A0043AD33 /* Sources */,
 				8E0CC7AB27A6C75A0043AD33 /* Frameworks */,
 				8E0CC7AC27A6C75A0043AD33 /* Resources */,
+				3D8CE1A21FCD77A28D42137D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +225,76 @@
 			files = (
 				8E0CC7BE27A6C7630043AD33 /* LaunchScreen.storyboard in Resources */,
 				8E0CC7BB27A6C7630043AD33 /* Assets.xcassets in Resources */,
-				8E0CC7B927A6C75B0043AD33 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		354B8E8666DE1BF9B1A8C22C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HusqvarnaTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D8CE1A21FCD77A28D42137D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HusqvarnaTest/Pods-HusqvarnaTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HusqvarnaTest/Pods-HusqvarnaTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HusqvarnaTest/Pods-HusqvarnaTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8E0CC7AA27A6C75A0043AD33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E0CC7B627A6C75B0043AD33 /* ViewController.swift in Sources */,
+				8E33480527A9CAF200E1062F /* DoubleLabelView.swift in Sources */,
+				8E0CC7B627A6C75B0043AD33 /* MoviesListViewController.swift in Sources */,
 				8E0CC7B227A6C75B0043AD33 /* AppDelegate.swift in Sources */,
+				8E33480327A9C89600E1062F /* Bindable.swift in Sources */,
+				8E0E8AA127A70A98003DBBAB /* MovieDetailsViewController.swift in Sources */,
+				8E0E8A9C27A705E5003DBBAB /* Movie.swift in Sources */,
 				8E0CC7B427A6C75B0043AD33 /* SceneDelegate.swift in Sources */,
+				8E33480127A9B7E300E1062F /* MovieDetailsViewModel.swift in Sources */,
+				8E0E8AA427A72962003DBBAB /* ItemTableViewCell.swift in Sources */,
+				8E0E8AA627A73A7A003DBBAB /* MoviesListViewModel.swift in Sources */,
+				8E3347FD27A99FC900E1062F /* APIRequest.swift in Sources */,
+				8E0E8AA827A73B78003DBBAB /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8E0CC7B727A6C75B0043AD33 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8E0CC7B827A6C75B0043AD33 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8E0CC7BC27A6C7630043AD33 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +424,7 @@
 		};
 		8E0CC7C327A6C7630043AD33 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65B2057729EB51C1F07FFA39 /* Pods-HusqvarnaTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,7 +435,6 @@
 				INFOPLIST_FILE = HusqvarnaTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +452,7 @@
 		};
 		8E0CC7C427A6C7630043AD33 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B251F29673AB3E8BA32C002 /* Pods-HusqvarnaTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,7 +463,6 @@
 				INFOPLIST_FILE = HusqvarnaTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
